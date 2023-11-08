@@ -1,5 +1,5 @@
 ---
 - name: set hostname
   ansible.builtin.hostname:
-    name: "{{ morpheus['results']['CFE Python Task'] }}"
+    name: "{{ morpheus['task']['results']['CFE Python Task'] }}"
   become: yes
